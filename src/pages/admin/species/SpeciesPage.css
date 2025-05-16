@@ -1,0 +1,98 @@
+.species-page {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #fafafa;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.species-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.species-page p {
+  text-align: center;
+  color: #d9534f;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.species-page ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.species-page ul li {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.species-page ul li:last-child {
+  border-bottom: none;
+}
+
+.species-page form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.species-page input[type="text"] {
+  flex-grow: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.species-page input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.species-page button {
+  padding: 0 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.species-page button:hover {
+  background-color: #0056b3;
+}
+
+.go-back-button {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.go-back-button:hover {
+  color: white;
+}

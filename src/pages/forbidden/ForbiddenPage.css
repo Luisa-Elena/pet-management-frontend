@@ -1,0 +1,41 @@
+.forbidden-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.forbidden-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.forbidden-message {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.go-home-link {
+  font-size: 1rem;
+  color: #3498db;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #3498db;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.go-home-link:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.go-home-link:active {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}

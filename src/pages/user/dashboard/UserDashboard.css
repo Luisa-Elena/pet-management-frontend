@@ -1,0 +1,34 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+
+.user-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.user-grid {
+  display: flex;
+  flex-direction: column; 
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.user-button {
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.bg-blue { background-color: #29a1e6; }
+.bg-green { background-color: #1bb15c; }
+.bg-purple { background-color: #c05cf6; }
+.bg-orange { background-color: #f78b3e; }

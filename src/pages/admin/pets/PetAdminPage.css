@@ -1,0 +1,109 @@
+.pets-page {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.pets-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pagination-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f1f5f9;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  z-index: 100;
+}
+
+.pagination-footer button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-footer button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-pet-btn {
+  background-color: #4ade80;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-btn {
+  background-color: #58d5de;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-pet-btn:hover {
+  background-color: #22c55e;
+}
+
+.go-back-btn:hover {
+  background-color: #1aa3d4;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.add-pet-btn,
+.go-back-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.no-pets-message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #777;
+}
