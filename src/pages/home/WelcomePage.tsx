@@ -5,9 +5,9 @@ import "./WelcomePage.css";
 const WelcomePage = () => {
   return (
     <div className="welcome-container">
-      <h1 className="welcome-heading">Welcome to Our App!</h1>
+      <h1 className="welcome-heading">Welcome to FurEver Home!</h1>
       <p className="welcome-text">
-        We're glad to have you here.
+        "Because every tail deserves a tale."
       </p>
       <div>
         <Link to="/login">
